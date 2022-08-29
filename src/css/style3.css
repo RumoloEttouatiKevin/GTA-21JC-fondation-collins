@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "LouisGeorgeCafe";
+  src: url("../font/LouisGeorgeCafeBold.ttf") format("truetype");
+}
+
+body {
+  background-color: rgb(65, 65, 65);
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(102, 102, 102);
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  width: 690px;
+}
+
+.card {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card__canvas {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.btn {
+  width: max-content;
+  padding: 5px;
+  cursor: pointer;
+}
+
+label {
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.form__input {
+  margin-bottom: 5px;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-card ul {
+  padding: 0;
+  width: 210px;
+  list-style: none;
+}
+
+.list-card li {
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.form-connexion {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.form-connexion .form__input {
+  padding: 5px;
+}
+
+.buttonBack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 15px 0 0 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.img-home {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-home__item {
+  align-self: center;
+  width: 35%;
+  height: max-content;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img-home__item:hover {
+  border: 2px solid purple;
+}
+
+#list-certificate {
+  width: 100%;
+}
